@@ -5,7 +5,7 @@
 
 ## Guía de Instalación de IntelliJ y JDK
 
-1. Instalar el IDE de desarrollo IntelliJ:
+1. Instalar el IDE de desarrollo IntelliJ versión `2023.3.3`:
 - **Windows**: [Descargar](https://www.jetbrains.com/idea/download/?section=windows) y seguir las instrucciones del instalador.
 - **Mac**: [Descargar](https://www.jetbrains.com/idea/download/?section=mac), abrir el archivo `.dmg`, y arrastrar IntelliJ al directorio de Aplicaciones.
 - **Linux**: [Descargar](https://www.jetbrains.com/idea/download/?section=linux), descomprimir el archivo y ejecutar `bin/.sh` para iniciar la instalación.  
@@ -51,22 +51,24 @@ Al iniciar IntelliJ va a aparecer una interfaz como la siguiente:
 ![App Screenshot](https://github.com/Cristian-Infante/Proyecto-Estimation-Tool/blob/CFIC/Dependencias%20Spring%20Boot.png)
 </div>
 
-4. Seleccionar las siguientes dependencias:
+5. Seleccionar las siguientes dependencias:
 <div align="center">
 
 | Sección | Dependencias |
 | --- | --- |
 | Developer Tools | `Spring Boot DevTools` `Lombook` |
 | Web | `Spring Web` |
+
+![App Screenshot](https://github.com/Cristian-Infante/Proyecto-Estimation-Tool/blob/CFIC/Dependencias.png)
 </div>
 
-5. Dar click en `Create` y aparecerá la interfaz principal del proyecto:
+6. Dar click en `Create` y aparecerá la interfaz principal del proyecto:
 <div align="center">
   
 ![App Screenshot](https://github.com/Cristian-Infante/Proyecto-Estimation-Tool/blob/CFIC/Proyecto.png)
 </div>
 
-6. Abrir el archivo `pom.xml` y dentro de la etiqueta `Dependencies` agregar la siguiente dependencia
+7. Abrir el archivo `pom.xml` y dentro de la etiqueta `Dependencies` agregar la siguiente dependencia
 ```xml
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
@@ -75,7 +77,7 @@ Al iniciar IntelliJ va a aparecer una interfaz como la siguiente:
 </dependency>
 ```
 
-7. Dar click en el botón que aparece con una `m` de color azul o presionar las teclas `Ctrl+Mayús+O` para guardar los cambios y cargar las dependencias al proyecto
+8. Dar click en el botón que aparece con una `m` de color azul o presionar las teclas `Ctrl+Mayús+O` para guardar los cambios y cargar las dependencias al proyecto
 <div align="center">
   
 ![App Screenshot](https://github.com/Cristian-Infante/Proyecto-Estimation-Tool/blob/CFIC/Cargar%20dependencias.png)
