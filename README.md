@@ -39,7 +39,7 @@ Al iniciar IntelliJ va a aparecer una interfaz como la siguiente:
 ![App Screenshot](https://github.com/Cristian-Infante/Proyecto-Estimation-Tool/blob/CFIC/Interfaz%20New%20Project%20Spring%20Initializr.png)
 </div>
 
-3. Llenar las configuraciones del proyecto como en la siguiente imagen (La ubicación de la carpeta del proyecto es a preferencia de cada persona)
+3. Llenar las configuraciones del proyecto como en la siguiente imagen (La ubicación de la carpeta del proyecto es a preferencia de cada persona. En el caso de que no aparezca ningun `JDK` se debe volver a descargar)
 <div align="center">
   
 ![App Screenshot](https://github.com/Cristian-Infante/Proyecto-Estimation-Tool/blob/CFIC/Gu%C3%ADa%20configuraci%C3%B3n%20proyecto.png)
@@ -66,6 +66,12 @@ Al iniciar IntelliJ va a aparecer una interfaz como la siguiente:
 <div align="center">
   
 ![App Screenshot](https://github.com/Cristian-Infante/Proyecto-Estimation-Tool/blob/CFIC/Proyecto.png)
+</div>
+
+- A los usuarios de Mac les pueden salir unos errores como en la siguiente imagen, pero es mientras se terminan de descargar las dependencias.
+<div align="center">
+  
+![App Screenshot](https://github.com/Cristian-Infante/Proyecto-Estimation-Tool/blob/CFIC/Caso%20Mac.png)
 </div>
 
 7. Abrir el archivo `pom.xml` y dentro de la etiqueta `Dependencies` agregar la siguiente dependencia
